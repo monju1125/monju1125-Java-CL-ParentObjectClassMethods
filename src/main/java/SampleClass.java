@@ -61,13 +61,9 @@
 public class SampleClass {
     public int a;
     public boolean b;
-    public String name;
+   
 
-    public SampleClass(String name){
-        this.name = name;
-    }
-    
-
+  
     //    implement a custom .equals(Object other){} method here.
     @Override
     public boolean equals(Object other){
@@ -76,7 +72,7 @@ public class SampleClass {
     }
         @Override
         public String toString(){
-            return "Person name= " + name;
+            return "a";
         }
 
     //    implement a custom .toString(){} method here.
