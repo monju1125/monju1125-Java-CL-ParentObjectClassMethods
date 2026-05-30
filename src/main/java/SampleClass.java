@@ -69,7 +69,7 @@ public class SampleClass {
         if (this == other) return true;
         if ((other == null || getClass() != other.getClass()) ) return false;
             
-        SampleClass obj = (SampleClass) other;
+        //SampleClass obj = (SampleClass) other;
         return false;
     }
         @Override
