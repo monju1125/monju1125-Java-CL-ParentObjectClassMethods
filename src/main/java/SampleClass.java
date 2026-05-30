@@ -61,12 +61,12 @@
 public class SampleClass {
     public int a;
     public boolean b;
-    String name;
+    
    
     public SampleClass(int a, boolean b, String name){
         this.a = a;
         this.b = b;
-        this.name = name;
+   
     }
   
     //    implement a custom .equals(Object other){} method here.
