@@ -69,7 +69,8 @@ public class SampleClass {
     }
 
         public String toString(){
-            return "This is " + "my String";
+            String s = "abc";
+            return "This is " +s+ "my String";
         }
 
     //    implement a custom .toString(){} method here.
