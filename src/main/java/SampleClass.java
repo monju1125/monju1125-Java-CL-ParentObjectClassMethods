@@ -63,7 +63,7 @@ public class SampleClass {
     public boolean b;
     
    
-    public SampleClass(int a, boolean b, String name){
+    public SampleClass(int a, boolean b){
         this.a = a;
         this.b = b;
    
