@@ -67,13 +67,13 @@ public class SampleClass {
     @Override
     public boolean equals(Object other){
         if (this == other) return true;
-        SampleClass o = (SampleClass) other;
+        SampleClass obj = (SampleClass) other;
         return false;
     }
         @Override
         public String toString(){
             
-            return "MyString: " ;
+            return "a= " +a + ", " + "b= " + b ;
         }
 
     //    implement a custom .toString(){} method here.
