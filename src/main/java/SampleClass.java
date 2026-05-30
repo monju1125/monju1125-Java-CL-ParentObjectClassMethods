@@ -61,7 +61,7 @@
 public class SampleClass {
     public int a;
     public boolean b;
-    SampleClass other = new SampleClass();
+    
    
     //    implement a custom .equals(Object other){} method here.
     @Override
@@ -70,7 +70,7 @@ public class SampleClass {
         if ((other == null || getClass() != other.getClass()) ) return false;
             //if(this == other) return true;
             //else return false;
-        
+        else
         return false;
     }
         @Override
