@@ -63,7 +63,13 @@ public class SampleClass {
     public boolean b;
 
     //    implement a custom .equals(Object other){} method here.
+    public boolean equals(Object other){
+            return equals(other);
+    }
 
+        public String toString(){
+            return "This is " + "the method";
+        }
 
     //    implement a custom .toString(){} method here.
 
