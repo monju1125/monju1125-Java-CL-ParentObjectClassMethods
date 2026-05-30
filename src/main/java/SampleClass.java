@@ -68,8 +68,8 @@ public class SampleClass {
             return c1 == other;
     }
 
-        public String toString(String s){
-            return "This is " +s+ "my String";
+        public String toString(){
+            return "This is " + "my String";
         }
 
     //    implement a custom .toString(){} method here.
