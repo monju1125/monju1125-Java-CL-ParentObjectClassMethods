@@ -64,7 +64,8 @@ public class SampleClass {
 
     //    implement a custom .equals(Object other){} method here.
     public boolean equals(Object other){
-            return equals(other);
+            SampleClass c1 = new SampleClass();
+            return c1 == other;
     }
 
         public String toString(){
