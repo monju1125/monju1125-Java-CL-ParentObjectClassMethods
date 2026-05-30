@@ -65,8 +65,8 @@ public class SampleClass {
     //    implement a custom .equals(Object other){} method here.
     @Override
     public boolean equals(Object other){
-        SampleClass sc = new SampleClass();   
-       return sc == other;         
+        if (this == other) return true;
+        else return false;      
     }
 
         public String toString(){
