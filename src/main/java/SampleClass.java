@@ -66,7 +66,7 @@ public class SampleClass {
     @Override
     public boolean equals(Object other){
         SampleClass sc = new SampleClass();   
-       return sc.equals(other);          
+       return sc == other;         
     }
 
         public String toString(){
